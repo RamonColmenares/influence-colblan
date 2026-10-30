@@ -1,29 +1,29 @@
 # Influence Colblan
 
-Sitio de presentación de **Colblan**, un estudio de avatares de IA en desarrollo. La propuesta es crear personajes virtuales con identidad propia, generar contenido y organizar su publicación y gestión.
+The presentation website for **Colblan**, an AI avatar studio in development. The product vision is to create virtual characters with their own identities, generate content, and organize publishing and management.
 
-Sitio: [influence.colblan.com](https://influence.colblan.com/)
+Website: [influence.colblan.com](https://influence.colblan.com/)
 
-## Estado
+## Status
 
-Este repositorio comienza con los archivos locales de la versión `v2` registrados como fuente del despliegue en Cloudflare Workers Static Assets. Es una página estática de presentación; las capacidades descritas en ella son la visión del producto y no deben interpretarse como funciones ya implementadas.
+This repository starts with the local `v2` files recorded as the source of the Cloudflare Workers Static Assets deployment. It is a static presentation website; the capabilities described are the product vision and should not be assumed to be implemented.
 
-## Estructura
+## Structure
 
-- `public/`: HTML, CSS, JavaScript, imágenes, cabeceras y archivos para buscadores.
-- `docs/producto.md`: visión, público y capacidades propuestas.
-- `docs/desarrollo.md`: ejecución local y notas del despliegue conocido.
+- `public/`: HTML, CSS, JavaScript, images, headers, and search engine files.
+- `docs/product.md`: product vision, audience, and proposed capabilities.
+- `docs/development.md`: local preview and known deployment details.
 
-## Vista local
+## Local preview
 
-Desde la raíz del repositorio ejecuta:
+From the repository root, run:
 
 ```sh
 python3 -m http.server 8000 --directory public
 ```
 
-Abre [localhost:8000](http://localhost:8000/). No se requiere instalar dependencias para visualizar el sitio.
+Open [localhost:8000](http://localhost:8000/). No dependencies are required to preview the site.
 
-## Licencia
+## License
 
-Todavía no se ha especificado una licencia para el código y los recursos de este repositorio. Consulta al titular de los derechos antes de reutilizarlos.
+A license has not yet been specified for this repository's code and assets. Consult the rights holder before reusing them.
